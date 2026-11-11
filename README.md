@@ -1,6 +1,6 @@
 # Gas Sensor Calibration Model
 
-Predicts what a certified carbon monoxide (CO) analyser would read, using signals from five low-cost gas sensors plus temperature and humidity. The idea came from the live air-quality screens on a Delta Electronics manufacturing line: cheap sensors could cover more of a factory floor if a model can turn their readings into analyser-grade estimates.
+Predicts what a certified carbon monoxide (CO) analyser would read, using signals from five low-cost gas sensors plus temperature and humidity.
 
 ## How it works
 
