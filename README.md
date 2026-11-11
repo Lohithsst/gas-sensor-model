@@ -1,6 +1,6 @@
 # Gas Sensor Calibration Model
 
-Predicts what a certified carbon monoxide (CO) analyser would read, using signals from five low-cost gas sensors plus temperature and humidity.
+Predicts what a certified carbon monoxide (CO) analyser would read, using signals from five low-cost gas sensors plus temperature and humidity. Built as a school project. The notebook is written as a technical report, so the code sits between sections on the problem, data assumptions, model comparison, limitations and references.
 
 ## How it works
 
@@ -32,10 +32,6 @@ A scatter plot showed benzene following an almost exact curve of PT08.S2, with n
 Random Forest won. On the test set it scored an RMSE of 0.535 mg/m³, an MAE of 0.366 mg/m³ and an R² of 0.830.
 
 At higher concentrations it tends to underestimate, which is the dangerous direction for a CO alarm. The training data is also hourly outdoor readings, not factory data. So the notebook proposes it as cheaper, wider indicative monitoring alongside certified analysers, not a replacement for them.
-
-## Why it reads like a report
-
-The brief asked for a technical report in a Jupyter notebook, built around a problem inspired by an industry visit, with several models compared and tuned. That is why the code sits between sections such as the problem statement, data assumptions, limitations and references.
 
 ## Running it
 
